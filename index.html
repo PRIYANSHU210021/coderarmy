@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- boxicon -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header sector start -->
+     <!-- <header>
+        <a href="#" class="logo"><span>P</span>riyanshu</a>
+
+        <ul class="navbar">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+        <div class="menu-btn">
+            <div class="bx bx-menu hambarger" id="menu-icon"></div>
+        </div>
+     </header> -->
+
+     <header>
+        <a href="#" class="logo"><span>P</span>riyanshu</a>
+    
+        <!-- Hidden checkbox for toggling menu -->
+        <input type="checkbox" id="menu-toggle" hidden>
+        <ul class="navbar">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+        <label for="menu-toggle" class="menu-btn">
+            <div class="bx bx-menu hambarger" id="menu-icon"></div>
+        </label>
+    </header>
+    
+     <!-- header section end -->
+
+     <!-- home section start -->
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <span> Fronted Developer</span>
+            <h1>Priyanshu Prajapati</h1>
+            <p>I am a web developer with month of experience in creating websites. My skills include coding in HTML & CSS <br> and more than 5 five year work experience of Corel Draw and Photoshop. </p>
+            <div class="main-btn">
+                <a href="#" class="btn">Download CV</a>
+                <a href="#" class="btn two">Hire Me</a>
+
+            </div>
+        </div> 
+        <div class="home-img">
+            <!-- add side by side image 1 -->
+            <img src="images/dp-2.png">
+        </div>
+    </section>
+
+     <!-- home section end -->
+
+
+     <div class="share">
+        <p>Check Out My:</p>
+        <div class="social">
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+        </div>
+     </div>
+
+    <!-- home section end -->
+
+    <!-- about section start -->
+
+    <section class="about" id="about">
+            <div class="img left">
+                <!-- add side by side image 2 -->
+                <img src="images/dd3.png" alt="" class="src"> 
+            </div>
+        <div class="right">
+            <h1>Skills</h1>
+            <ul>• Programming Language: C, C++, Java</ul>
+            <ul>• Object Oriented Programming</ul>
+            <ul>• Database: MySql</ul>
+            <ul>• WebDev: HTML, CSS</ul>
+            <ul>• Figma experience (1 Year)</ul>
+            <ul>• 5 Years + experience: CorelDraw & Photoshop</ul>
+        </div>
+    </section>
+
+    <!-- about section end -->
+
+    
+
+    <!-- project section start -->
+
+    <section class="project" id="project">
+        <div class="center-text" data-aos="fade-dowm">
+            <h2>My <span>Project</span></h2>
+        </div>
+        <div class="project-content" >
+
+            <div class="box" data-aos="flip-left">
+                <img src="img/s-1.svg" alt="">
+                <h3>CoderArmy WebDev Project 1</h3>
+                <p>"Welcome to my portfolio! I am passionate about creating functional and visually appealing web experiences." and Lots of Thanks For Rohit Sir & All Coderarmy Team For Your Efforts 🙏. </p>
+                <a href="#">
+                    Visit Here
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+
+            
+            <div class="box" data-aos="flip-left">
+                <img src="img/s-2.svg" alt="">
+                <h3>CoderArmy WebDev Project 2 (Not Yet)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque animi ad, molestiae ullam sed officia nihil.</p>
+                <a href="#">
+                    xxxxxx
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+
+            
+            <div class="box" data-aos="flip-left">
+                <img src="img/s-3.svg" alt="">
+                <h3>CoderArmy WebDev Project 3 (Not Yet)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque animi ad, molestiae ullam sed officia nihil.</p>
+                <a href="#">
+                    xxxxxx
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+
+        </div>
+      </section>
+
+      <!-- project section end -->
+
+      <!-- contact section start -->
+
+      <section class="contact" id="contact">
+        <div class="center-text" data-aos="fade-down">
+            <h2>Contact <span>Me</span></h2>
+        </div>
+        <div class="contact-form" data-aos="zoom-in">
+            <form action="">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Something..." required></textarea>
+                <input type="submit" name="" value="Send Message" class="send-btn">
+            </form>
+        </div>
+    </section>
+
+  <!-- contact section end -->
+
+  <!-- footer seciton start -->
+
+  <div class="footer">
+    <div class="copyright">
+        <p>2024 Priyanshu, All Rights Reserved.</p>
+    </div >
+        <p class="right">Thankyou Rohit Sir, & Special Thanks For Free DSA Playlist On Youtube</p>
+
+    
+  </div>
+
+  <!-- footer seciton end -->
+
+
+
+
+</body>
+</html>
